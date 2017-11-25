@@ -1,0 +1,2 @@
+alias get_version='echo $ date +%Y%m%d-%H%M%S )-$( git rev-parse --short HEAD )'
+alias fix_bracketed='printf "\e[?2004l"'

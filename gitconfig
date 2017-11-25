@@ -1,0 +1,19 @@
+[user]
+    user = Ian Auld
+    email = imauld@gmail.com
+[core]
+	excludesfile = $HOME/.gitignore_global
+[alias]
+    co = checkout
+    cob = checkout -b
+    amend = commit -a --amend
+    pom = pull origin master
+    # ec = config --global -e
+    # up = !git pull --rebase --prune $@
+    # cm = !git add -A && git commit -m
+    # save = !git add -A && git commit -m 'SAVEPOINT'
+    # wip = !git add -u && git commit -m "WIP"
+    # undo = reset HEAD~1 --mixed
+    # wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+    # bclean = "!f() { git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs git branch -d; }; f"
+    # bdone = "!f() { git checkout ${1-master} && git up && git bclean ${1-master}; }; f"
